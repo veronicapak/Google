@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in on the homepage",
+            "match": {
+              "location": "com.google.step_definitions.Google.user_in_on_the_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T03:07:19.395Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3875000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.google.step_definitions.Hooks.setupScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Homepage",
+        "description": "",
+        "id": "homepage-functionality;homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 976000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.google.step_definitions.Hooks.teardownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title is \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Google\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.google.step_definitions.Google.title_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Homepage functionality",
+    "description": "",
+    "id": "homepage-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/google.feature",
+    "tags": []
+  }
+]

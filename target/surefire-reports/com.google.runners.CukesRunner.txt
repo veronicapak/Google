@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.google.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.google.runners.CukesRunner
+com.google.runners.CukesRunner.initializationError  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalArgumentException: path must exist: C:\Users\veronica.pak\IntelliJProjects\Google\src\test\resources\features
+
