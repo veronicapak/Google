@@ -14,4 +14,5 @@ public class Google {
         String actualTitle = Driver.getDriver().getTitle();
         Assert.assertTrue(actualTitle.equals(expectedTitle));
     }
+
 }
