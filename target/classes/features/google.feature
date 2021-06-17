@@ -5,5 +5,8 @@ Feature: Homepage functionality
 
   Scenario: Homepage
     Then title is "Google"
+#
+#  Scenario:
+#    Then "Gmail" is displayed
 
 
